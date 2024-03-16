@@ -12,11 +12,13 @@ If you like Rachit's work, you can follow at -
   - [The Problem with this macro - its not scalable](#the-problem-with-this-macro---its-not-scalable)
   - [Solution using a powerful macro](#solution-using-a-powerful-macro)
 - [Generic Reader and Writer for multiple variables and containers](#generic-reader-and-writer-for-multiple-variables-and-containers)
+  - [Usage](#usage)
 - [Decorators in C++ and Multiple Parameters](#decorators-in-c-and-multiple-parameters)
   - [Live Demo on YouTube](#live-demo-on-youtube)
   - [Printing as many variables in one line](#printing-as-many-variables-in-one-line)
   - [Powerful decorator functions in C++](#powerful-decorator-functions-in-c)
   - [Exploiting decorators by nesting them](#exploiting-decorators-by-nesting-them)
+- [Say Goodbye to `s.find(...) != s.end`](#say-goodbye-to-sfind--send)
 
 
 ## No more nested `min(x, min(y, ...))`
