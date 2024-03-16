@@ -208,3 +208,13 @@ beautify(debug_func(pow(2, 3)));
 ```
 Its amazing how much you can do by writing such generic decorators and nest them.  
 Think about decorators like `log_time` that calculates the time taken for a given function.
+
+## Say Goodbye to `s.find(...) != s.end`
+
+```
+set<int> example{1, 2, 3, 4};
+example.find(3) != example.end() // true
+example.contains(3) // true
+```
+
+Note that this works with `map` as well as `set`.
